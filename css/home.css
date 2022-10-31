@@ -1,0 +1,22 @@
+html {
+    scroll-behavior: smooth;
+    font-family: Helvetica, sans-serif, Arial;
+}
+
+body {
+    margin: 0 auto;
+    animation: bg-animate 40s ease-in-out infinite;
+}
+
+
+@keyframes bg-animate{
+    0%,100%{
+        background-image: url(../img/bg01.jpg);
+    }
+    25%{
+        background-image: url(../img/bg02.jpg);
+    }
+    50%{
+        background-image: url(../img/bg03.jpg);
+    }
+}
