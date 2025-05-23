@@ -96,3 +96,5 @@ $("#textInput").keypress(function (e) {
         getResponse();
     }
 });
+
+module.exports = { getTime };

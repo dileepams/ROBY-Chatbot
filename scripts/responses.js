@@ -272,7 +272,8 @@ function getBotResponse(input) {
     }
     
     else {
-        window.open('https://www.google.com/search?q=' + input);
+        // window.open('https://www.google.com/search?q=' + input); // Temporarily commented out for testing
         return "Sorry! Did not get it. Still I am learning humans' languages. But I provide a Google search related to your question.";
     }
 }
+module.exports = getBotResponse;
